@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="GPL-3.0-or-later"
+issueTrackerURL="https://github.com/fredikr/replaymod-forge/issues"
+clientSideOnly=true
+
+[[mods]]
+modId="replaymod"
+version="${version}"
+displayName="Replay Mod"
+displayURL="https://replaymod.com/"
+logoFile="replaymod_logo.png"
+authors="CrushedPixel, johni0702 (unofficial Forge port)"
+displayTest="IGNORE_ALL_VERSION"
+description="A Mod which allows you to record, replay and share your Minecraft experience. Unofficial Forge port."
+
+[[dependencies.replaymod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.replaymod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11]"
+    ordering="NONE"
+    side="CLIENT"

@@ -1,0 +1,53 @@
+# Gradle / build output
+build/
+.gradle/
+out/
+bin/
+
+# Game run folders (worlds, replays, logs, options)
+run/
+run-data/
+ingame-test/run/
+ingame-test/run-data/
+ingame-test/build/
+ingame-test/.gradle/
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.metadata/
+.classpath
+.project
+*.launch
+.vscode/
+eclipse/
+
+# Forge MDK leftovers
+forge_README.txt
+forge*changelog.txt
+
+# Assistant / agent files and local notes (never published)
+AGENTS.md
+agents.md
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.cursor/
+.codex/
+
+# Secrets
+.env
+.env.*
+*.key
+*.p12
+*.jks
+secrets*
+credentials*
+
+# OS
+.DS_Store
+Thumbs.db
