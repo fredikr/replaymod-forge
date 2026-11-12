@@ -77,4 +77,4 @@
 Сборка (`./gradlew build`, JDK 21), игровой тест в `ingame-test/` и проверка миксинов против OptiFine в
 `tools/` описаны в [английском README](README.md#building).
 
-Лицензия GPL-3.0-or-later, как у ReplayMod ([LICENSE.md](LICENSE.md)). Оригинал © авторы ReplayMod.
+Лицензия GPL-3.0-or-later, как у ReplayMod ([LICENSE](LICENSE)). Оригинал © авторы ReplayMod.

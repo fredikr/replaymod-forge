@@ -121,4 +121,4 @@ java -cp "asm.jar;asm-tree.jar" tools/MixinCheck.java replaymod-forge.jar of-pat
 
 ## License
 
-GPL-3.0-or-later, same as ReplayMod (see [LICENSE.md](LICENSE.md)). Original work © the ReplayMod authors.
+GPL-3.0-or-later, same as ReplayMod (see [LICENSE](LICENSE)). Original work © the ReplayMod authors.
