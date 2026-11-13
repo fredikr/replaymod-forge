@@ -335,7 +335,9 @@ public class PacketListener extends ChannelInboundHandlerAdapter {
                     } else {
                         outputPaths = Collections.singletonList(Pair.of(outputPath, metaData));
                     }
-                } catch (Exception e) {
+                } catch (Throwable e) {
+                    // Throwable, not Exception: an Error (e.g. NoClassDefFoundError after the mod jar was replaced
+                    // while the game was running) would otherwise kill this thread and leave the popup stuck at 0%.
                     logger.error("Saving replay file:", e);
                     CrashReport crashReport = CrashReport.forThrowable(e, "Saving replay file");
                     core.runLater(() -> Utils.error(logger, VanillaGuiScreen.wrap(mc.screen), crashReport, guiSavingReplay::close));

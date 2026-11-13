@@ -15,6 +15,8 @@ An unofficial port of [ReplayMod](https://github.com/ReplayMod/ReplayMod) 2.6.28
 2. Put `replaymod-1.21.11-2.6.28-forge.jar` into the `mods` folder of your Forge profile.
    Remove the Fabric build of ReplayMod from that folder if it is there.
 3. Client only, nothing to install on servers. All libraries are bundled in the jar.
+4. Replace the jar only while the game is closed: swapping it under a running game breaks class loading
+   (e.g. saving a replay fails with `NoClassDefFoundError`).
 
 Works together with OptiFine (tested against OptiFine 1.21.11 HD U J9 pre4).
 
